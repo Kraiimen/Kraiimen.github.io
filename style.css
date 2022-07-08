@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Pacifico&family=Roboto+Condensed:wght@300;400&family=Work+Sans:ital,wght@0,600;0,900;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+body{
+    color: #0c0f0a;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 120px;
+    width: 100%;
+    top: 0px;
+    background-color: #fff;
+    padding: 0 30px;
+    position: fixed;
+}
+
+#logo{
+    display: flex;
+    padding: 5px;
+}
+
+#header-img{
+    width: 100px;
+    height: auto;
+}
+
+#brand_name{
+    color: #0c0f0a;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+}
+
+nav ul{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+#nav-bar{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #0c0f0a;
+}
+
+#tagline{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 125px;
+}
+
+#tagline span{
+    color: #17bebb;
+    font-style: italic;
+}
+
+#video_container{
+    display: flex;
+    justify-content: center;
+}
+
+#info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.badges{
+   width: 100px;
+   float: left;
+   margin-right: 50px;
+}
+
+.text h2 span{
+    color: #cbe896;
+}
+
+.text{
+    justify-content: center;
+    align-content: center;
+    width: 1000px;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+.text p{
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.box{
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.center_box{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.title_container{
+    width: 100%;
+    height: 18%;
+    background-color: #1aaca920;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_container h1{
+    color: #0c0f0a;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 200;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 500;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.description p{
+    font-size: 20px;
+}
+
+.center_desc{
+    margin: 20px 0;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+   width: 110px;
+   height: 50px;
+   font-size: 25px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: bold;
+   margin-top: 50px;
+   background-color: #00ffff;
+   border: 0px;
+   border-radius: 5px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+#email{
+    width: 360px;
+    height: 33px;
+    padding-left: 10px;
+    font-size: medium;
+    margin: 10px 0;
+}
+
+#form h2{
+    color: #bf360c;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    font-style: italic;
+}
+
+#submit{
+    color: #0c0f0a;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    font-size: 28px;
+    border: none;
+    background-color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#footer{
+    width: 100%;
+    height: 75px;
+    background-color: #1aaca950;
+    text-align: end;
+    padding: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-bottom: 10px;
+    justify-content: end;
+}
+
+#center_li{
+    margin: 0 35px;
+}
+
+#footer p{
+    color: #0c0f0a;
+    font-weight: 300;
+}
+
+@media (min-width:390px) and (max-width: 844px){
+    #header{
+        padding: 10px;
+        min-height: fit-content;
+    }
+
+    #logo{
+        position: relative;
+        width: 65vw;
+    }
+
+    #nav-bar{
+        display: flex;
+        justify-content: end;
+        text-align: end;
+        font-size: 10px;
+    }
+
+    #header-img{
+        width: 50px;
+        height: auto;
+    }
+    
+    #brand_name{
+        color: #0c0f0a;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        font-family: 'Pacifico', cursive;
+    }
+
+    nav ul{
+        width: auto;
+        display: flex;
+        list-style-type: none;
+        flex-direction: column;
+    }
+    
+    .padding_item{
+        padding: 0;
+    }
+
+    #tagline{
+        font-size: 12px;
+        margin-bottom: 5px;
+        margin-top: 77px;
+    }
+
+    #video{
+        width: 300px;
+        height: auto;
+    }
+    
+    #info{
+        margin-top: 45px;
+        margin-bottom: -20px;
+    }
+
+    .badges{
+        width: 40px;
+        margin: 0 30px 2px 0;
+    }
+
+    .text{
+        width: 80vw;
+    }
+
+    section{
+        margin-bottom: 20px;
+    }
+    
+    .text p{
+        font-size: smaller;
+        float: right;
+        padding-top: 0;
+    }
+    
+    .text h2{
+        font-size: 17px;
+        padding-top: 10px;
+        padding-bottom: 2px;
+    }
+
+    #products{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    
+    .box{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .center_box{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .title_container h1{
+        font-size: 18px;
+    }
+    
+    .price{
+        padding: 15px 0 10px 0;
+        font-size: 25px;
+    }
+    
+    .description p{
+        font-size: 15px;
+    }
+    
+    .center_desc{
+        margin: 10px 0;
+    }
+    
+    .btn button{
+       width: 100px;
+       height: 45px;
+       font-size: 25px;
+       font-family: 'Work Sans', sans-serif;
+       font-weight: bold;
+       margin-top: 20px;
+       background-color: #00ffff;
+       border: 0px;
+       border-radius: 5px;
+    }
+
+    #form{
+        margin-bottom: 20px;
+    }
+    
+    #email{
+        width: 300px;
+        height: 30px;
+        font-size: small;
+    }
+    
+    #form h2{
+        font-size: 32px;
+    }
+    
+    #submit{
+        font-size: 22px;
+    }
+
+    #footer{
+        padding: 10px;
+        font-size: smaller;
+    }
+    
+    #center_li{
+        margin: 0 30px;
+    }
+}

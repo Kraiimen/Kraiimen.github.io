@@ -253,7 +253,7 @@ section{
     font-weight: 300;
 }
 
-@media (min-width:390px) and (max-width: 1248px){
+@media (min-width:390px) and (max-width: 844px){
     #header{
         padding: 10px;
         min-height: fit-content;
@@ -406,4 +406,8 @@ section{
     #center_li{
         margin: 0 30px;
     }
+
+    .btn{
+        color: #0c0f0a;
+     }
 }

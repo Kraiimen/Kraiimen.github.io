@@ -253,7 +253,7 @@ section{
     font-weight: 300;
 }
 
-@media (min-width:390px) and (max-width: 844px){
+@media (min-width:390px) and (max-width: 926px){
     #header{
         padding: 10px;
         min-height: fit-content;
@@ -385,7 +385,7 @@ section{
     }
     
     #email{
-        width: 300px;
+        width: 310px;
         height: 30px;
         font-size: small;
     }
